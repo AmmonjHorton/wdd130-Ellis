@@ -1,0 +1,159 @@
+@font-face {
+    font-family: CatchyMager;
+    src: url(font/Catchy\ Mager.ttf);
+  }        
+        .everything {
+            margin: 0;
+            padding: 0;
+            font-family: CatchyMager, sans-serif;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .container {
+            position: relative;
+            text-align: center;
+            color: white;
+        }
+        .overlay {
+            background: rgba(0, 0, 0, 0.5);
+            padding: 20px;
+            border-radius: 10px;
+        }
+        h1 {
+            font-family: CatchyMager, sans-serif;
+            margin: 0;
+            font-size: 1.5rem;
+            color: white
+        }
+        h2 {
+            font-family: CatchyMager, sans-serif;
+            margin: 5px;
+            font-size: 4rem;
+            color: white
+        }
+        .button {
+            margin-top: 10px;
+            padding: 10px 20px;
+            background: white;
+            color: black;
+            border: none;
+            cursor: pointer;
+            font-size: 1rem;
+            border-radius: 5px;
+            transition: 0.3s;
+        }
+        .learn-more {
+            padding: 10px 20px;
+            background: white;
+            color: black;
+            border: none;
+            cursor: pointer;
+            font-size: 1rem;
+            border-radius: 5px;
+            transition: 0.3s;
+            margin-top: 100px;
+        }
+        .learn-more:hover {
+            background: gray;
+            color: white;
+        }
+        .background-image
+        {
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            width: 100%;
+            position: absolute;
+            z-index: -1;
+        }
+        .navbar {
+            list-style: none; /* Remove default bullet points */
+                margin: 0; /* Remove default margin */
+                padding: 0; /* Remove default padding */
+                width: 100%;
+                height: 60px;
+                background-color: #ffc30b;
+                display: flex;
+                align-items: center; /* Vertically center items */
+                justify-content: left; /* Aligns items to the left */
+            }
+            
+            .navbar a {
+                font-size: 1.5rem;
+                display: block;
+                color: white;
+                text-decoration: none;
+                padding: 14px 20px;
+                font-size: 18px;
+            }
+            .navbar a:hover {
+                background-color: #444;
+                border-radius: 5px;
+            }
+            html, body {
+                margin: 0;
+                padding: 0;
+                width: 100%;
+                height: 100%;
+            }
+            .navbar li {
+                display: inline-block; /* Aligns list items in a row */
+            }
+            .navbar .logo {
+                margin-left: 10px; /* Add some spacing to the left */
+            }
+            
+            .navbar-logo {
+                height: 30px; /* Adjust the height of the logo */
+                width: auto; /* Maintain aspect ratio */
+            }         
+            #wrapper {
+                background-color: #8b5e3b;
+                
+            }
+            #info {
+                background-color: #faf3e0;
+                padding: 50px;
+                width: 400px;
+                font-size: 25px;
+                
+            }
+            #main {
+                display: grid;
+                width: 50%;
+                grid-template-columns: 1fr 1fr;
+                margin: 50px;
+            }
+            #bear-family {
+                padding: 50px;
+                width: 600px;
+            }
+            #logo {
+                width: 90px;
+            }
+            #img-border img {
+                max-width: 100%;
+                height: auto;
+                display: block;
+            }
+            /* #img-border {
+                display: inline-block;
+                padding: 30px;
+                background: white;
+                border: 20px solid transparent;
+                border-image-source: url("data:image/svg+xml;utf8,\
+              <svg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 20 20'>\
+                <circle cx='10' cy='0' r='10' fill='pink'/>\
+              </svg>");
+                border-image-slice: 10;
+                border-image-repeat: round;
+                border-image-width: 20px;
+              } */
+            footer {
+                padding: 10px;
+            }
+
+        
